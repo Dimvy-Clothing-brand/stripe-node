@@ -1,0 +1,53 @@
+# Ignore sensitive files and directories
+.env
+.env.local
+.env.*.local
+config/database.yml
+config/secrets.yml
+config/credentials.yml.enc
+config/master.key
+config/application.yml
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore sensitive directories
+node_modules/
+vendor/
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore compiled files and directories
+*.out
+*.class
+*.pyc
+*.o
+*.obj
+
+# Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Ignore IDE-specific files
+*.iml
+*.ipr
+*.iws
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Ignore build directories
+build/
+dist/
+target/
+tmp/
+coverage/
